@@ -25,7 +25,7 @@ function NewMeetup() {
         <title>new meeting page</title>
         <meta name="description" content="this is the new meeting page" />
       </Head>
-      <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+      <NewMeetupForm onAddMeetup={addMeetupHandler} />
     </Fragment>
   );
 }
