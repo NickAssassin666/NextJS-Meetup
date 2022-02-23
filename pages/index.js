@@ -10,7 +10,7 @@ function HomePage(props) {
         <title>meetings page</title>
         <meta name="description" content="this is the meetings page" />
       </Head>
-      <MeetUpList meetups={props.meetings} />;
+      <MeetUpList meetups={props.meetings} />
     </Fragment>
   );
 }
